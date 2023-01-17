@@ -7,7 +7,7 @@ h1{
     font-weight: bold;
     background-color: rgb(97, 160, 196);
     color: rgb(253, 253, 253);
-    border: 1px solid black;
+    border: 3px solid rgb(0, 0, 0);
     padding: 40px 40px 40px 40px; 
     margin: 0px;
     text-align: right;
@@ -15,7 +15,6 @@ h1{
 
 h3{
     color: rgb(97, 160, 196);
-    border: 0px solid black;
     padding: 0px 0px 0px 0px; 
     margin: 0px;
 }
@@ -24,6 +23,15 @@ hr{
     height: 2px;
     border: 3px solid rgb(97, 160, 196); 
 }
+
+td{
+    vertical-align: top;
+    text-align: left;
+    padding: 0px 10px 0px 10px; 
+    margin: 0px;
+    border: 3px solid rgb(97, 160, 196)
+}
+
 
 
 
