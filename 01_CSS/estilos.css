@@ -7,14 +7,14 @@ h1{
     padding: 40px 40px 40px 40px; 
     margin: 0px;
     text-align: right;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik';
 }
 
 h3{
     color: rgb(97, 160, 196);
     padding: 0px 0px 0px 0px; 
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik';
     font-weight: bold;
 }
 
@@ -22,7 +22,7 @@ h5{
     color: rgb(0, 0, 0);
     padding: 0px 0px 0px 0px; 
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik';
     font-weight: bolder;
 }
 
@@ -36,11 +36,11 @@ td{
     text-align: left;
     padding: 0px 10px 0px 10px; 
     margin: 0px;
-    border: 3px solid rgb(97, 160, 196)
+    border: 3px solid #61a0c4
 }
 
 p{
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     text-align: justify;
     padding: 0px 0px 0px 0px; 
     margin: 0px;
@@ -53,7 +53,7 @@ p{
 
 
 label{
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     font-size: smaller;
     text-align: justify;
     padding: 0px 0px 0px 0px; 
@@ -64,7 +64,7 @@ form{
     margin: 0 auto;
     width: 150px;
     text-align: center;
-    background-color: rgb(197, 193, 193);
+    background-color: #c5c1c1;
     padding: 0px 0px 0px 0px; 
 }
 
