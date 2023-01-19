@@ -18,6 +18,14 @@ h3{
     font-weight: bold;
 }
 
+h5{
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 0px; 
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
 hr{
     height: 2px;
     border: 3px solid rgb(97, 160, 196); 
@@ -41,3 +49,28 @@ p{
 .subtitulo1{
     font-weight: bolder;
 }
+
+
+
+label{
+    font-family: 'Roboto';
+    font-size: smaller;
+    text-align: justify;
+    padding: 0px 0px 0px 0px; 
+    margin: 0px; 
+}
+
+form{
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(197, 193, 193);
+    padding: 0px 0px 0px 0px; 
+}
+
+input{
+    font-size: x-small;
+    padding: 0px 0px 0px 0px; 
+    
+}
+
