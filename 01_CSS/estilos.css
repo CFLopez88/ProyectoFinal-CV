@@ -1,76 +1,181 @@
 
-h1{
-    font-weight: bold;
-    background-color: rgb(97, 160, 196);
-    color: rgb(253, 253, 253);
-    border: 3px solid rgb(0, 0, 0);
-    padding: 40px 40px 40px 40px; 
-    margin: 0px;
-    text-align: right;
-    font-family: 'Rubik';
+*{
+    box-sizing: border-box;
 }
 
-h3{
-    color: rgb(97, 160, 196);
-    padding: 0px 0px 0px 0px; 
-    margin: 0px;
-    font-family: 'Rubik';
-    font-weight: bold;
-}
+/*************** Estilos encabezados ******************/
+    header{
+        width: 100%;
+        margin: 0;
+        
+    }
 
-h5{
-    color: rgb(0, 0, 0);
-    padding: 0px 0px 0px 0px; 
-    margin: 0px;
-    font-family: 'Rubik';
-    font-weight: bolder;
-}
+    h1{
+        font-weight: bold;
+        background-color: rgb(97, 160, 196);
+        color: rgb(253, 253, 253);
+        border: 3px solid rgb(0, 0, 0);
+        padding: 40px 40px 40px 40px; 
+        margin: 0px;
+        text-align: right;
+        font-family: 'Rubik';
+        width: 100%;
+    }
 
-hr{
-    height: 2px;
-    border: 3px solid rgb(97, 160, 196); 
-}
+    h3{
+        color: rgb(97, 160, 196);
+        padding: 0px 0px 0px 0px; 
+        margin: 0px;
+        font-family: 'Rubik';
+        font-weight: bold;
+        
+    }
 
-td{
-    vertical-align: top;
-    text-align: left;
-    padding: 0px 10px 0px 10px; 
-    margin: 0px;
-    border: 3px solid #61a0c4
-}
+    h5{
+        color: rgb(255, 255, 255);
+        padding: 0px 0px 0px 0px; 
+        margin: 0px;
+        font-family: 'Rubik';
+        font-weight: bolder;
+        background-color: #3d3d3d;
+        width: 150px;
+    }
 
-p{
-    font-family: 'Rubik';
-    text-align: justify;
-    padding: 0px 0px 0px 0px; 
-    margin: 0px;
-}
+/*************** Estilo linea separación **************/
+    hr{
+        height: 2px;
+        border: 3px solid rgb(97, 160, 196); 
+    }
 
-.subtitulo1{
-    font-weight: bolder;
-}
+/*************** Estilo tabla *************************/
+    table{
+        width: 100%;
+    }
 
+    td{
+        vertical-align: top;
+        text-align: left;
+        padding: 0px 10px 0px 10px; 
+        margin: 0px;
+        border: 3px solid #61a0c4
+    }
 
+    tr{
+        margin: 0px;
+    }
 
-label{
-    font-family: 'Rubik';
-    font-size: smaller;
-    text-align: justify;
-    padding: 0px 0px 0px 0px; 
-    margin: 0px; 
-}
+    .presentacionyexperencia{
+        width: 75%;
+    }
 
-form{
-    margin: 0 auto;
-    width: 150px;
-    text-align: center;
-    background-color: #c5c1c1;
-    padding: 0px 0px 0px 0px; 
-}
+    .habilidadesycontacto{
+        width: 25%;
+        background-color: #a6cfe7;
+    }
 
-input{
-    font-size: x-small;
-    padding: 0px 0px 0px 0px; 
+/*************** Estilo párrafo ***********************/
+    p{
+        font-family: 'Rubik';
+        text-align: justify;
+        padding: 0px 0px 0px 0px; 
+        margin: 0px;
+    }
+
+    .subtitulo1{
+        font-weight: bolder;
+    }
+
+/*************** Estilos formulario ********************/
+    label{
+        font-family: 'Rubik';
+        font-size: smaller;
+        text-align: justify;
+        padding: 0px 0px 0px 0px; 
+        margin: 0px; 
+        width: 250px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        background-color: #c5c1c1;
+        padding: 0px 0px 0px 0px; 
+    }
+
+    input{
+        font-size: x-small;
+        padding: 0px 0px 0px 0px;
+        
+    }
+
+/******************************************************/
+/*************** Estilos media query ******************/
+/******************************************************/
+
+    @media only screen and (max-width: 600px) {
+        .presentacionyexperencia {
+            background-color: #ece7e0;}
+
+        h1{
+            font-size: medium;
+            height: 50px;
+            text-align: center;
+        }
+
+        h3{
+            font-size: small;
+        }
+
+        h5{
+            font-size: smaller;
+            width: 100px;
+        }
+
+        p{
+            font-size: x-small;
+        }
+
+        label{
+            font-size: xx-small;
+            width: 75px;
+        }
+
+        .presentacionyexperencia{
+            width: 75%;
+        }
     
-}
+        .habilidadesycontacto{
+            width: 25%;
+            background-color: #a6cfe7;
+        }
+
+        form{
+            width: 100px;
+            
+        }
+
+        .contacto{
+            font-size: xx-small;
+        }
+
+        input{
+            width: 75px;
+            font-size: xx-small;
+        }
+
+        #correo{
+            font-size: xx-small;
+        }
+
+        
+    
+    }
+
+        
+    
+    
+
+
+                   
 
