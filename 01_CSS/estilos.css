@@ -12,10 +12,10 @@
 
     h1{
         font-weight: bold;
-        background-color: rgb(97, 160, 196);
+        background-color: #7ac4e5   ;
         color: rgb(253, 253, 253);
         border: 3px solid rgb(0, 0, 0);
-        padding: 40px 40px 40px 40px; 
+        padding: 40px 10px 0px 40px; 
         margin: 0px;
         text-align: right;
         font-family: 'Rubik';
@@ -28,7 +28,10 @@
         margin: 0px;
         font-family: 'Rubik';
         font-weight: bold;
-        
+    }
+
+    .h3habilidades{
+        text-align: center;
     }
 
     h5{
@@ -37,14 +40,19 @@
         margin: 0px;
         font-family: 'Rubik';
         font-weight: bolder;
-        background-color: #3d3d3d;
+        background-color: #61a0c4;
         width: 150px;
     }
 
 /*************** Estilo linea separación **************/
     hr{
+        height: 3px;
+        background-color: #61a0c4;
+    }
+
+    .barrahabilidades{
         height: 2px;
-        border: 3px solid rgb(97, 160, 196); 
+        background-color: #FFFFFF;
     }
 
 /*************** Estilo tabla *************************/
@@ -65,12 +73,12 @@
     }
 
     .presentacionyexperencia{
-        width: 75%;
+        width: 85%;
     }
 
     .habilidadesycontacto{
-        width: 25%;
-        background-color: #a6cfe7;
+        width: 15%;
+        background-color: #4d4d4d;
     }
 
 /*************** Estilo párrafo ***********************/
@@ -79,10 +87,50 @@
         text-align: justify;
         padding: 0px 0px 0px 0px; 
         margin: 0px;
+        font-weight: lighter;
+    }
+
+    .profesion{
+        text-align: right;
+        font-size: large;
+        padding: 0px 60px 0px 0px;
+        font-weight: lighter;
+        
     }
 
     .subtitulo1{
         font-weight: bolder;
+        text-align: left;
+    }
+
+    .contactopersonal{
+        font-size: medium;
+        color: #FFFFFF;
+        text-align: center;
+        background-color: #5a5a5a;
+        
+    }
+
+    .phabilidades{
+        color: #FFFFFF;
+        font-size: small;
+    }
+
+    .estilodebarra{
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .estilodebarra::-webkit-progress-bar{
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        height: 8px;
+        
+    }
+
+    .estilodebarra::-webkit-progress-value{
+        background-color: #61a0c4;
+        border-radius: 5px;
     }
 
 /*************** Estilos formulario ********************/
@@ -109,8 +157,23 @@
         
     }
 
+/*************** Estilos iconos ***********************/
     .iconopresyexp{
-        background-color: #a6cfe7;
+        background-color: #61a0c4;
+        width: 15px;
+        border-radius: 50%;
+        padding: 1px 1px 1px 1px;
+    }
+
+    .iconocontactopersonal{
+        width: 15px;
+        filter: invert(58%) sepia(12%) saturate(1426%) hue-rotate(158deg) brightness(101%) contrast(86%);
+        
+    }
+
+/*************** Estilo foto perfil *******************/
+    .fotoperfil{
+        border-radius: 50%;
     }
 
 /******************************************************/
@@ -123,8 +186,9 @@
 
         h1{
             font-size: medium;
-            height: 50px;
-            text-align: center;
+            height: 25px;
+            padding: 20px 25px 40px 40px; 
+            
         }
 
         h3{
@@ -140,6 +204,10 @@
             font-size: x-small;
         }
 
+        .contactopersonal{
+            font-size: x-small;
+        }
+
         label{
             font-size: xx-small;
             width: 75px;
@@ -151,7 +219,7 @@
     
         .habilidadesycontacto{
             width: 25%;
-            background-color: #a6cfe7;
+            background-color: #4d4d4d;
         }
 
         form{
@@ -172,8 +240,34 @@
             font-size: xx-small;
         }
 
-        
-    
+        .fotoperfil{
+            height: 100px; 
+            width: 100px;
+        }
+
+        .iconopresyexp{
+            width: 10px;
+        }
+
+        .iconocontactopersonal{
+            width: 10px;
+        }
+
+        .phabilidades{
+            font-size: xx-small;
+        }
+
+        .estilodebarra::-webkit-progress-bar{
+            height: 5px;
+        }
+
+        .profesion{
+            text-align: right;
+            font-size: small;
+            padding: 0px 25px 0px 0px;
+
+        }
+   
     }
 
         
