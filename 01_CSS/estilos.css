@@ -6,8 +6,7 @@
 /*************** Estilos encabezados ******************/
     header{
         width: 100%;
-        margin: 0;
-        
+        margin: 0;   
     }
 
     h1{
@@ -94,8 +93,7 @@
         text-align: right;
         font-size: large;
         padding: 0px 60px 0px 0px;
-        font-weight: lighter;
-        
+        font-weight: lighter;  
     }
 
     .subtitulo1{
@@ -108,7 +106,6 @@
         color: #FFFFFF;
         text-align: center;
         background-color: #5a5a5a;
-        
     }
 
     .phabilidades{
@@ -116,6 +113,7 @@
         font-size: small;
     }
 
+/*************** Estilo barra habilidades *************/
     .estilodebarra{
         border-radius: 5px;
         width: 100%;
@@ -125,7 +123,6 @@
         background-color: #FFFFFF;
         border-radius: 5px;
         height: 8px;
-        
     }
 
     .estilodebarra::-webkit-progress-value{
@@ -133,7 +130,7 @@
         border-radius: 5px;
     }
 
-/*************** Estilos formulario ********************/
+/*************** Estilos formulario *******************/
     label{
         font-family: 'Rubik';
         font-size: smaller;
@@ -153,8 +150,7 @@
 
     input{
         font-size: x-small;
-        padding: 0px 0px 0px 0px;
-        
+        padding: 0px 0px 0px 0px;   
     }
 
 /*************** Estilos iconos ***********************/
@@ -167,8 +163,7 @@
 
     .iconocontactopersonal{
         width: 15px;
-        filter: invert(58%) sepia(12%) saturate(1426%) hue-rotate(158deg) brightness(101%) contrast(86%);
-        
+        filter: invert(58%) sepia(12%) saturate(1426%) hue-rotate(158deg) brightness(101%) contrast(86%);  
     }
 
 /*************** Estilo foto perfil *******************/
@@ -176,19 +171,19 @@
         border-radius: 50%;
     }
 
+
 /******************************************************/
 /*************** Estilos media query ******************/
 /******************************************************/
 
-    @media only screen and (max-width: 600px) {
-        .presentacionyexperencia {
-            background-color: #ece7e0;}
 
+    @media only screen and (max-width: 600px) {
+        
+/*************** Estilos encabezados ******************/
         h1{
             font-size: medium;
             height: 25px;
             padding: 20px 25px 40px 40px; 
-            
         }
 
         h3{
@@ -200,35 +195,53 @@
             width: 100px;
         }
 
+        .contacto{
+            font-size: xx-small;
+        }
+
+/*************** Estilo tabla *************************/
+        .presentacionyexperencia{
+            background-color: #ece7e0;
+            width: 75%;
+        }
+
+        .habilidadesycontacto{
+            width: 25%;
+            background-color: #4d4d4d;
+        }
+
+/*************** Estilo párrafo ***********************/
         p{
             font-size: x-small;
+        }
+
+        .profesion{
+            text-align: right;
+            font-size: small;
+            padding: 0px 25px 0px 0px;
         }
 
         .contactopersonal{
             font-size: x-small;
         }
 
+        .phabilidades{
+            font-size: xx-small;
+        }
+
+/*************** Estilo barra habilidades *************/
+        .estilodebarra::-webkit-progress-bar{
+            height: 5px;
+        }
+
+/*************** Estilos formulario *******************/
         label{
             font-size: xx-small;
             width: 75px;
         }
 
-        .presentacionyexperencia{
-            width: 75%;
-        }
-    
-        .habilidadesycontacto{
-            width: 25%;
-            background-color: #4d4d4d;
-        }
-
         form{
-            width: 100px;
-            
-        }
-
-        .contacto{
-            font-size: xx-small;
+            width: 100px;  
         }
 
         input{
@@ -240,11 +253,7 @@
             font-size: xx-small;
         }
 
-        .fotoperfil{
-            height: 100px; 
-            width: 100px;
-        }
-
+/*************** Estilos iconos ***********************/
         .iconopresyexp{
             width: 10px;
         }
@@ -253,21 +262,11 @@
             width: 10px;
         }
 
-        .phabilidades{
-            font-size: xx-small;
+/*************** Estilo foto perfil *******************/
+        .fotoperfil{
+            height: 100px; 
+            width: 100px;
         }
-
-        .estilodebarra::-webkit-progress-bar{
-            height: 5px;
-        }
-
-        .profesion{
-            text-align: right;
-            font-size: small;
-            padding: 0px 25px 0px 0px;
-
-        }
-   
     }
 
         
