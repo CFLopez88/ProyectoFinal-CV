@@ -140,6 +140,7 @@
         padding: 0px 0px 0px 0px; 
         margin: 0px; 
         width: 250px;
+        
     }
 
     form{
@@ -152,7 +153,32 @@
 
     input{
         font-size: x-small;
-        padding: 0px 0px 0px 0px;   
+        padding: 0px 0px 0px 0px;
+        border: 2px solid #00adef;   
+    }
+
+    #mensaje{
+        width: 125px;
+        height: 75px;
+        font-family: 'Rubik';
+        font-size: x-small;
+        border: 2px solid #00adef;
+    }
+
+    #contadorch{
+        font-size: xx-small;
+    }
+
+    #botonenviar{
+        font-family: 'Rubik';
+        color: #ffffff;
+        background-color: #00adef;
+        font-size: small;
+        font-weight: bolder;
+        width: 75px;
+        height: 20px;
+        border: 1px solid #4d4d4d;
+        border-radius: 2px;  
     }
 
 /*************** Estilos iconos ***********************/
@@ -270,6 +296,19 @@ hr{
         #correo{
             font-size: xx-small;
         }
+
+        #mensaje{
+            width: 75px;
+            height: 50px;
+            font-size: xx-small;
+        }
+
+        #botonenviar{
+            font-size: xx-small;
+            width: 50px;
+            height: 15px;
+            border-radius: 2px;    
+        }      
 
 /*************** Estilos iconos ***********************/
         .iconopresyexp{

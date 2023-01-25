@@ -131,7 +131,7 @@
                     <form action="" method="get">
                         <label>Nombre</label>
                         <br>
-                        <input type="text" required name="Nombre" placeholder="Ingrese su nombre"/>
+                        <input type="text" required name="Nombre" oninvalid="this.setCustomValidity('Ingrese nombre')" placeholder="Ingrese su nombre"/>
                         <br>
                         <label>Teléfono (opcional)</label>
                         <br>
@@ -139,9 +139,16 @@
                         <br>
                         <label>E-mail</label>
                         <br>
-                        <input id="correo" type="email" required name="E-mail" placeholder="Ingrese su e-mail"/> 
+                        <input id="correo" type="email" required name="E-mail" oninvalid="this.setCustomValidity('Ingrese e-mail')" placeholder="Ingrese su e-mail"/> 
                         <br>
-                        <input type="submit" value="Enviar"/>
+                        <label>Mensaje (opcional)</label>
+                        <br>
+                        <textarea id="mensaje" name="Mensaje" placeholder="Ingrese su mensaje" maxlength="300"></textarea>
+                        <label id="contadorch">/300</label>
+                        <br>
+                        <input type="submit" id="botonenviar" value="Enviar"/>
+                        <br>
+                        <br>
                     </form>
                     <br>
                 </td>
