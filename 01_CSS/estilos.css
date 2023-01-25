@@ -6,12 +6,11 @@
 /*************** Estilos encabezados ******************/
     header{
         width: 100%;
-        margin: 0;   
+        margin: 0;
     }
 
     h1{
         font-weight: bold;
-        background-color: #7ac4e5   ;
         color: rgb(253, 253, 253);
         border: 3px solid rgb(0, 0, 0);
         padding: 40px 10px 0px 40px; 
@@ -19,10 +18,12 @@
         text-align: right;
         font-family: 'Rubik';
         width: 100%;
+        background-image: url('https://luminfire.com/wp-content/uploads/2015/08/luminfire-mac-os-x-desktop-background-image-2.jpg');
+        background-size: cover;
     }
 
     h3{
-        color: rgb(97, 160, 196);
+        color: #00adef;
         padding: 0px 0px 0px 0px; 
         margin: 0px;
         font-family: 'Rubik';
@@ -39,14 +40,15 @@
         margin: 0px;
         font-family: 'Rubik';
         font-weight: bolder;
-        background-color: #61a0c4;
+        background-color: #00adef;
         width: 150px;
     }
 
 /*************** Estilo linea separación **************/
     hr{
-        height: 3px;
-        background-color: #61a0c4;
+        height: 4px;
+        background-color: #00adef;
+        border: #00adef
     }
 
     .barrahabilidades{
@@ -64,7 +66,7 @@
         text-align: left;
         padding: 0px 10px 0px 10px; 
         margin: 0px;
-        border: 3px solid #61a0c4
+        border: 3px solid #00adef
     }
 
     tr{
@@ -92,8 +94,8 @@
     .profesion{
         text-align: right;
         font-size: large;
-        padding: 0px 60px 0px 0px;
-        font-weight: lighter;  
+        padding: 0px 0px 0px 0px;
+        font-weight: lighter;
     }
 
     .subtitulo1{
@@ -126,7 +128,7 @@
     }
 
     .estilodebarra::-webkit-progress-value{
-        background-color: #61a0c4;
+        background-color: #00adef;
         border-radius: 5px;
     }
 
@@ -155,7 +157,7 @@
 
 /*************** Estilos iconos ***********************/
     .iconopresyexp{
-        background-color: #61a0c4;
+        background-color: #00adef;
         width: 15px;
         border-radius: 50%;
         padding: 1px 1px 1px 1px;
@@ -163,13 +165,22 @@
 
     .iconocontactopersonal{
         width: 15px;
-        filter: invert(58%) sepia(12%) saturate(1426%) hue-rotate(158deg) brightness(101%) contrast(86%);  
+        filter: invert(74%) sepia(77%) saturate(5203%) hue-rotate(162deg) brightness(96%) contrast(102%);
     }
 
 /*************** Estilo foto perfil *******************/
     .fotoperfil{
         border-radius: 50%;
     }
+
+/*************** Estilo marcadores de lista ***********/
+    ul li::marker{
+        font-size: 25px;
+        color: #00adef;
+        
+
+    }
+
 
 
 /******************************************************/
@@ -183,7 +194,7 @@
         h1{
             font-size: medium;
             height: 25px;
-            padding: 20px 25px 40px 40px; 
+            padding: 20px 5px 40px 40px; 
         }
 
         h3{
@@ -198,6 +209,13 @@
         .contacto{
             font-size: xx-small;
         }
+
+/*************** Estilo linea separación **************/
+hr{
+    height: 2px;
+    background-color: #00adef;
+    border: #00adef
+}
 
 /*************** Estilo tabla *************************/
         .presentacionyexperencia{
@@ -218,7 +236,7 @@
         .profesion{
             text-align: right;
             font-size: small;
-            padding: 0px 25px 0px 0px;
+            padding: 0px 0px 0px 0px;
         }
 
         .contactopersonal{
