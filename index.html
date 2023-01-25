@@ -18,7 +18,7 @@
         <meta property="og:description" content="Primeros pasos del desarrollo FrontEnd" />
         
     </head>
-    <body>
+    <body onload="contadorespacios">
         <header>
             <h1>Carlos F. Lopez
                 <p class="profesion">Arquitecto</p>
@@ -129,22 +129,22 @@
                     <br>
                     <center><h5 class="contacto">CONTACTO</h5></center>
                     <form action="" method="get">
-                        <label>Nombre</label>
+                        <label id="nombrecampo">Nombre</label>
                         <br>
                         <input type="text" required name="Nombre" oninvalid="this.setCustomValidity('Ingrese nombre')" placeholder="Ingrese su nombre"/>
                         <br>
-                        <label>Teléfono (opcional)</label>
+                        <label id="nombrecampo">Teléfono (opcional)</label>
                         <br>
                         <input type="number" name="Telefono" placeholder="Ingrese su teléfono"/>
                         <br>
-                        <label>E-mail</label>
+                        <label id="nombrecampo">E-mail</label>
                         <br>
                         <input id="correo" type="email" required name="E-mail" oninvalid="this.setCustomValidity('Ingrese e-mail')" placeholder="Ingrese su e-mail"/> 
                         <br>
-                        <label>Mensaje (opcional)</label>
+                        <label id="nombrecampo">Mensaje (opcional)</label>
                         <br>
-                        <textarea id="mensaje" name="Mensaje" placeholder="Ingrese su mensaje" maxlength="300"></textarea>
-                        <label id="contadorch">/300</label>
+                        <textarea id="mensaje" name="Mensaje" placeholder="Ingrese su mensaje" maxlength="300" onkeyup="contadorespacios(this)"></textarea>
+                        <div id="contadorch"></div>
                         <br>
                         <input type="submit" id="botonenviar" value="Enviar"/>
                         <br>
@@ -154,6 +154,7 @@
                 </td>
             </tr>
         </table>
+        <script src="02_JS/sintaxis.js"></script>
     </body>
 </html>
 
