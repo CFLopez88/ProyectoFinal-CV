@@ -4,13 +4,6 @@
     font-family: 'Rubik';
 }
 
-#favicon{
-    color: #00adef;
-    height: 50px;
-}
-
-
-
 /*************** Estilos encabezados ******************/
     header{
         width: 100%;
@@ -143,6 +136,7 @@
     .estilodebarra::-webkit-progress-value{
         background-color: #00adef;
         border-radius: 5px;
+        animation: forwards;
     }
 
 /*************** Estilos formulario *******************/
@@ -220,8 +214,6 @@
         color: #00adef;
     }
 
-
-
 /******************************************************/
 /*************** Estilos media query ******************/
 /******************************************************/
@@ -251,11 +243,11 @@
         }
 
 /*************** Estilo linea separación **************/
-hr{
-    height: 2px;
-    background-color: #00adef;
-    border: #00adef
-}
+        hr{
+            height: 2px;
+            background-color: #00adef;
+            border: #00adef
+        }
 
 /*************** Estilo tabla *************************/
         td{
@@ -352,14 +344,5 @@ hr{
     ul li::marker{
         font-size: 15px;
     }
-
-
-    }
-
-        
-    
-    
-
-
-                   
+    }              
 
