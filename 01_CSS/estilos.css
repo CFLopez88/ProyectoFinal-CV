@@ -4,10 +4,18 @@
     font-family: 'Rubik';
 }
 
+#favicon{
+    color: #00adef;
+    height: 50px;
+}
+
+
+
 /*************** Estilos encabezados ******************/
     header{
         width: 100%;
         margin: 0;
+        padding: 0px 2px 0px 2px;
     }
 
     h1{
@@ -46,7 +54,7 @@
     hr{
         height: 4px;
         background-color: #00adef;
-        border: #00adef
+        border: #00adef;
     }
 
     .barrahabilidades{
@@ -64,11 +72,11 @@
         text-align: left;
         padding: 0px 10px 0px 10px; 
         margin: 0px;
-        border: 3px solid #00adef
+        border: 3px solid #00adef;
     }
 
     tr{
-        margin: 0px;
+        margin: 10px;
     }
 
     .presentacionyexperencia{
@@ -86,6 +94,14 @@
         padding: 0px 0px 0px 0px; 
         margin: 0px;
         font-weight: lighter;
+    }
+
+    ul{
+        padding: 20px;
+    } 
+
+    a{
+        color: #00adef;
     }
 
     .profesion{
@@ -170,7 +186,6 @@
     }
 
     #botonenviar{
-        font-family: 'Rubik';
         color: #ffffff;
         background-color: #00adef;
         font-size: small;
@@ -201,10 +216,8 @@
 
 /*************** Estilo marcadores de lista ***********/
     ul li::marker{
-        font-size: 25px;
+        font-size: 20px;
         color: #00adef;
-        
-
     }
 
 
@@ -220,7 +233,8 @@
         h1{
             font-size: medium;
             height: 25px;
-            padding: 20px 5px 40px 40px; 
+            padding: 20px 5px 35px 40px; 
+            border: 2px solid #4d4d4d;
         }
 
         h3{
@@ -244,6 +258,10 @@ hr{
 }
 
 /*************** Estilo tabla *************************/
+        td{
+            border: 2px solid #00adef
+        }
+
         .presentacionyexperencia{
             background-color: #ece7e0;
             width: 75%;
@@ -329,6 +347,13 @@ hr{
             height: 100px; 
             width: 100px;
         }
+
+/*************** Estilo marcadores de lista ***********/
+    ul li::marker{
+        font-size: 15px;
+    }
+
+
     }
 
         
