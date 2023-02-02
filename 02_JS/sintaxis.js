@@ -7,8 +7,5 @@ function contadorespacios(obj){
     }
     else{
         document.getElementById("contadorch").innerHTML = strlength + "/300";
-    }
-
-    
+    }    
 }
-
